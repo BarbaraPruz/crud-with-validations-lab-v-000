@@ -40,4 +40,8 @@ class Song < ActiveRecord::Base
   #       end
   #   end
   # end
+
+  def released? # for readability
+    released
+  end
 end
